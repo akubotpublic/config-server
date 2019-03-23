@@ -1,6 +1,4 @@
 example.organization.property: "I AM THE DEFAULT for the organization-service as of 3/23/2019"
-spring.jpa.hibernate.ddl-auto=none
-
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
