@@ -1,5 +1,5 @@
 # config-server
-Config server for CSCI-E57a Microservices HW #1
+Config server for CSCI-E57a Microservices homework
 
 # Owner
 Harry Levinson
