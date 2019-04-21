@@ -1,4 +1,5 @@
-example.organization.property: "I AM THE DEFAULT for the organization-service on GitHub as of 3/23/2019"
+example.organization.property: "I AM THE DEFAULT example.organization.property for the organization-service"
+example.property: "I AM THE DEFAULT for the organization-service"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
