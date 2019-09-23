@@ -1,11 +1,11 @@
 example.workflow.property: "I AM IN THE DEFAULT yml example.workflow.property for the workflow-service"
 example.property: "I AM IN THE DEFAULT yml file for the workflow-service"
 
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=password
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.datasource.url: jdbc:h2:mem:testdb
+spring.datasource.driverClassName: org.h2.Driver
+spring.datasource.username: sa
+spring.datasource.password: password
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
 
 #spring.jpa.database: "POSTGRESQL"
 #spring.datasource.platform:  "postgres"
