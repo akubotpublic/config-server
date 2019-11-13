@@ -1,0 +1,8 @@
+example.fileactions.property: "I AM IN THE DEFAULT yml example.fileactions.property for the file-actions"
+example.property: "I AM IN THE DEFAULT yml file for the file-actions"
+
+spring.datasource.url: jdbc:h2:mem:testdb
+spring.datasource.driverClassName: org.h2.Driver
+spring.datasource.username: sa
+spring.datasource.password: password
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
