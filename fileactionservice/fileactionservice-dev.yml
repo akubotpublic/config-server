@@ -1,0 +1,20 @@
+example.fileactions.property: "I am in the DEV yml example.fileactions.property for the file-actions"
+example.property: "I am in the DEV yml file for the file-actions"
+
+# Database
+spring.datasource.url: jdbc:h2:mem:testdb
+spring.datasource.driverClassName: org.h2.Driver
+spring.datasource.username: sa
+spring.datasource.password: password
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+# Legacy HBS properties
+# Remember to change equal sign to colon
+# Typically found in filesystem at:
+# src/env/dev/resources/applicationConfiguration.properties
+tc.instance: mydev
+family.name: devFamily
+family.local: /export/app-local/devFamily
+family.shared: /export/app-shared/devFamily
+family.log.dir: /export/app-logs/devFamily/apps
+tc.global: /export/app-global
