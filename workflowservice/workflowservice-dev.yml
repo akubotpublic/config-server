@@ -8,20 +8,4 @@ spring.datasource.username: sa
 spring.datasource.password: password
 spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
 
-# Legacy HBS properties
-# Remember to change equal sign to colon
-# Typically found in filesystem at:
-# src/env/dev/resources/applicationConfiguration.properties
-tc.instance: mydev
-family.name: devFamily
-family.local: /export/app-local/devFamily
-family.shared: /export/app-shared/devFamily
-family.log.dir: /export/app-logs/devFamily/apps
-tc.global: /export/app-global
 
-# TODO these should not be hard-coded, but set in application.yml
-#app.name: workflow-service
-#app.version: 1.0.0
-
-# TODO there are additional variables to migrate
-# END:  Legacy HBS properties
